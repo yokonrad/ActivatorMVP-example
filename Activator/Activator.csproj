@@ -1,0 +1,94 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Platforms>x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RFID\RFID.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Presenter\Lang\Advanced.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Advanced.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Presenter\Lang\Main.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Main.resx</DependentUpon>
+    </Compile>
+    <Compile Update="View\Advanced\Page1\Reboot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page1\BusAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page1\SerialNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\RestoreDefaults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\BaudRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\Power.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\Interval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\Frequency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\Rssi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\TriggerType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\BitRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Advanced\Page2\WorkType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\Lang\Advanced.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Advanced.resx</DependentUpon>
+    </Compile>
+    <Compile Update="View\Lang\Main.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Main.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Presenter\Lang\Advanced.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Advanced.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Presenter\Lang\Main.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Main.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Lang\Advanced.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Advanced.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Lang\Main.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Main.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

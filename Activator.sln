@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Activator", "Activator\Activator.csproj", "{3A8E4CEA-2429-4FB6-8F02-FC59CD12CAC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RFID", "RFID\RFID.csproj", "{CD13FC92-B748-469A-BDA9-B86262A7CB88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{0511A7F3-A137-470F-89D3-2B3BC7685427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A8E4CEA-2429-4FB6-8F02-FC59CD12CAC9}.Debug|x86.ActiveCfg = Debug|x86
+		{3A8E4CEA-2429-4FB6-8F02-FC59CD12CAC9}.Debug|x86.Build.0 = Debug|x86
+		{3A8E4CEA-2429-4FB6-8F02-FC59CD12CAC9}.Release|x86.ActiveCfg = Release|x86
+		{3A8E4CEA-2429-4FB6-8F02-FC59CD12CAC9}.Release|x86.Build.0 = Release|x86
+		{CD13FC92-B748-469A-BDA9-B86262A7CB88}.Debug|x86.ActiveCfg = Debug|x86
+		{CD13FC92-B748-469A-BDA9-B86262A7CB88}.Debug|x86.Build.0 = Debug|x86
+		{CD13FC92-B748-469A-BDA9-B86262A7CB88}.Release|x86.ActiveCfg = Release|x86
+		{0511A7F3-A137-470F-89D3-2B3BC7685427}.Debug|x86.ActiveCfg = Debug|x86
+		{0511A7F3-A137-470F-89D3-2B3BC7685427}.Debug|x86.Build.0 = Debug|x86
+		{0511A7F3-A137-470F-89D3-2B3BC7685427}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60075679-BDB0-4185-AEA0-08A037DF0217}
+	EndGlobalSection
+EndGlobal
